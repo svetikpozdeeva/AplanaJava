@@ -11,9 +11,11 @@ public class Homework4 {
         double sr = (double)(x + y + z)/3;
         System.out.println("Среднее арифметическое чисел = " + sr);
 
-        int halfsr = (int)Math.floor(sr/2);
-        if (halfsr > 3) {
+        int halfSr = (int)Math.floor(sr/2);
+        if (halfSr > 3) {
             System.out.println("Программа выполнена корректно");
+        } else {
+            System.out.println("Половина от среднего равна " + halfSr);
         }
     }
 }

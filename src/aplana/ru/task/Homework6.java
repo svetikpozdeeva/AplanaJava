@@ -40,6 +40,7 @@ public class Homework6 {
                     System.out.println("Колограммы:" + kilo);
                     System.out.println("Унции:" + un);
                     System.out.println("Фунты:" + funt);
+                    break;
                 case 2:
                     kilo = z * 0.0283;
                     un = z;
@@ -47,6 +48,7 @@ public class Homework6 {
                     System.out.println("Колограммы:" + kilo);
                     System.out.println("Унции:" + un);
                     System.out.println("Фунты:" + funt);
+                    break;
                 case 3:
                     kilo = z * 0.454;
                     un = z * 16;
@@ -54,6 +56,7 @@ public class Homework6 {
                     System.out.println("Колограммы:" + kilo);
                     System.out.println("Унции:" + un);
                     System.out.println("Фунты:" + funt);
+                    break;
             }
         } else if (x == 2) {
             switch (y) {
@@ -66,6 +69,7 @@ public class Homework6 {
                     System.out.println("Мили:" + mil);
                     System.out.println("Ярды:" + yard);
                     System.out.println("Футы:" + fut);
+                    break;
                 case 2:
                     metr = z * 1609.34;
                     mil = z;
@@ -75,6 +79,7 @@ public class Homework6 {
                     System.out.println("Мили:" + mil);
                     System.out.println("Ярды:" + yard);
                     System.out.println("Футы:" + fut);
+                    break;
                 case 3:
                     metr = z * 0.9144;
                     mil = z * 1.0006;
@@ -84,6 +89,7 @@ public class Homework6 {
                     System.out.println("Мили:" + mil);
                     System.out.println("Ярды:" + yard);
                     System.out.println("Футы:" + fut);
+                    break;
                 case 4:
                     metr = z * 0.3048;
                     mil = z * 1.0002;
@@ -93,6 +99,7 @@ public class Homework6 {
                     System.out.println("Мили:" + mil);
                     System.out.println("Ярды:" + yard);
                     System.out.println("Футы:" + fut);
+                    break;
             }
         }
     }

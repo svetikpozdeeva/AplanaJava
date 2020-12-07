@@ -10,16 +10,21 @@ public class Homework5 {
         int y = scan.nextInt();
         String z = scan.next();
 
-        switch (z) {
-            case "+": System.out.println(x + y);
-                break;
-            case "-": System.out.println(x - y);
-                break;
-            case "*": System.out.println(x * y);
-                break;
-            case "/": System.out.println((double)(x) / (double)(y));
-                break;
-            default: System.out.println("Что-то не то ввели");
+        if (x != 0 && y == 0) {
+            System.out.println("На ноль делить нельзя!5");
+        } else {
+            switch (z) {
+                case "+": System.out.println(x + y);
+                    break;
+                case "-": System.out.println(x - y);
+                    break;
+                case "*": System.out.println(x * y);
+                    break;
+                case "/": System.out.println((double)(x) / (double)(y));
+                    break;
+                default: System.out.println("Что-то не то ввели");
+            }
         }
+
     }
 }
