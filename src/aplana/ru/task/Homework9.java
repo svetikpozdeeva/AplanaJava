@@ -11,14 +11,14 @@ public class Homework9 {
         double array[] = new double[size];
 
         double sum = 0.0;
-        System.out.println("Введите элементы массива с дробной частью через запятую");
+        System.out.println("Введите элементы массива отделенные пробелом с дробной частью через запятую");
         for (int i = 0; i < size; i++) {
             array[i] = scan.nextDouble();
             sum = sum + array[i];
         }
         DecimalFormat df = new DecimalFormat("###.##");
         double sr = sum / (double)size;
-        System.out.println(df.format("Среднее арифметическое = " + sr));
+        System.out.println("Среднее арифметическое = " + df.format( sr));
 
 
         for (int i = 0; i < size; i++) {

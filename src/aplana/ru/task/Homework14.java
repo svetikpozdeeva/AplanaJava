@@ -19,6 +19,6 @@ public class Homework14 {
             System.out.println(array[i]);
         }
         System.out.println("Максимальный элемент массива = " + max);
-        System.out.println("Максимальный элемент массива = " + min);
+        System.out.println("Минимальный элемент массива = " + min);
     }
 }
