@@ -20,5 +20,10 @@ public class Homework14 {
         }
         System.out.println("Максимальный элемент массива = " + max);
         System.out.println("Минимальный элемент массива = " + min);
+        if (Math.abs(max) > Math.abs(min)) {
+            System.out.println("Максимальный элемент по модулю из min и max = " + Math.abs(max));
+        } else {
+            System.out.println("Максимальный элемент по модулю из min и max = " + Math.abs(min));
+        }
     }
 }
