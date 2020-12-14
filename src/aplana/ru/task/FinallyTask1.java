@@ -3,7 +3,7 @@ package aplana.ru.task;
 import java.util.Scanner;
 import java.text.DecimalFormat;
 
-public class FinalyTask1 {
+public class FinallyTask1 {
     private static int y;
 
     public static void main(String[] args) {
